@@ -1,0 +1,139 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    color: white;
+    list-style-type: none;
+}
+
+
+body{
+   background-image: url(/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.picture{
+    border-radius: 15px;
+    box-shadow: 10px 11px 25px -4px rgba(0, 0, 0, 0.527);
+}
+
+
+.dark{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.box{
+    width: 300px;
+    margin: 100px auto;
+
+}
+
+.search-icon,
+.logo{
+    cursor: pointer;
+}
+
+header{
+    height: 150px;
+    padding-top: 99px;
+    border-bottom: 1px solid white;
+}
+
+header,
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigation li{ 
+    cursor: pointer;
+    padding: 8px;
+}
+
+.navigation li:hover {
+    color: rgb(240, 224, 2);
+    border-bottom: 2px solid rgb(240, 224, 2) ;
+    border-top: 2px solid rgb(240, 224, 2) ;
+}
+
+.main-text{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 177px;
+    margin-bottom: 10px;
+}
+.secondary_text{
+    max-width: 527px;
+    font-size: 24px;
+    margin-bottom: 44px;
+}
+
+.btn{
+    background-color: #E30A17;
+}
+
+
+
+.exp_btn{
+    padding: 10px 30px;
+   
+}
+.social-icon-list{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon{
+    width: 21px;
+    fill: white;
+    margin-right: 19px;
+}
+
+.social-icon:hover {
+    background-color: #E30A17;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
